@@ -39,6 +39,8 @@ PICS = (os.environ.get("PICS", "https://envs.sh/V8O.jpg https://envs.sh/V8m.jpg 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
+USER_REPLY_TEXT = "<blockquote>ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!</blockquote>"
+
 LOG_FILE_NAME = "filesharingbot.txt"
 
 logging.basicConfig(
