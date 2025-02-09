@@ -47,7 +47,7 @@ async def auto_del_notification(bot_username, msg, delay_time, transfer):
             try:
                 name = "♻️ Cʟɪᴄᴋ Hᴇʀᴇ"
                 link = f"https://t.me/{bot_username}?start={transfer}"
-                button = [[InlineKeyboardButton(text=name, url=link), InlineKeyboardButton(text="Cʟᴏsᴇ ✖️", callback_data = "close")]]
+                button = [[InlineKeyboardButton(text=name, url=link), InlineKeyboardButton(text="★ Cʟᴏsᴇ ★", callback_data = "close")]]
 
                 await temp.edit_text(text=f"<b>Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ 🗑\n<blockquote>Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴀɢᴀɪɴ, ᴛʜᴇɴ ᴄʟɪᴄᴋ: [<a href={link}>{name}</a>] ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴇʟsᴇ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ.</blockquote></b>", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True)
 
