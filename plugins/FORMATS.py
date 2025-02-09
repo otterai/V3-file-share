@@ -44,7 +44,7 @@ HELP_TEXT = """<b>⁉️ Hᴇʟʟᴏ {mention} ~
 <b><i>◈ Sᴛɪʟʟ ʜᴀᴠᴇ ᴅᴏᴜʙᴛs, ᴄᴏɴᴛᴀᴄᴛ ʙᴇʟᴏᴡ ᴘᴇʀsᴏɴs/ɢʀᴏᴜᴘ ᴀs ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅ !</i></b>"""
 
 ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ: {botname}
-<b>» ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/metaui</a>\n» ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href=https://t.me/AniHorizon>sᴏᴄɪᴇᴛʏ ɴᴇᴛᴡᴏʀᴋ</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/AniHorizon>ᴀɴɪᴍᴇ sᴏᴄɪᴇᴛʏ </a>\n»  : <a href=https://t.me/Ongoing_society>ᴏɴɢᴏɪɴɢ sᴏᴄɪᴇᴛʏ</a>\n» ɪɴᴅᴜsᴛʀʏ ɴᴇᴡs : <a href=t.me/pythonbotz>sᴏᴄɪᴇᴛʏ ɴᴇᴡs</a>\n» ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/metaui</a></b>"""
+<b>» ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/metaui</a>\n» ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href=https://t.me/AniHorizon>ᴀɴɪ ʜᴏʀɪᴢᴏɴ</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/AniHorizon>ᴀɴɪ ʜᴏʀɪᴢᴏɴ </a>\n» sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/+S6jna9Xe3-UyODhl>ᴄᴏᴅᴇ</a>\n» ʙᴏᴛ ᴄʜᴀɴɴᴇʟ : <a href=t.me/pythonbotz>ᴘʏᴛʜᴏɴ ʙᴏᴛᴢ</a>\n» ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/metaui</a></b>"""
 
 SETTING_TXT = """<b>⚙️ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
 <blockquote expandable>◈ ᴛᴏᴛᴀʟ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ:  <b>{total_fsub}</b>
