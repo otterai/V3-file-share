@@ -128,7 +128,7 @@ async def send_text(client: Bot, message: Message):
 
 @Bot.on_message(filters.command('status') & filters.private & is_admin)
 async def info(client: Bot, message: Message):   
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Cʟᴏsᴇ ✖️", callback_data = "close")]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("★ Cʟᴏsᴇ ★", callback_data = "close")]])
     
     start_time = time.time()
     temp_msg = await message.reply("<b><i>Pʀᴏᴄᴇssɪɴɢ....</i></b>", quote=True)  # Temporary message
@@ -147,7 +147,7 @@ async def info(client: Bot, message: Message):
 
 @Bot.on_message(filters.command('cmd') & filters.private & is_admin)
 async def bcmd(bot: Bot, message: Message):        
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Cʟᴏsᴇ ✖️", callback_data = "close")]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("★ Cʟᴏsᴇ ★", callback_data = "close")]])
     await message.reply(text=CMD_TXT, reply_markup = reply_markup, quote= True)
     
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------#    
@@ -156,13 +156,13 @@ async def bcmd(bot: Bot, message: Message):
 
 @Bot.on_message(filters.command('forcesub') & filters.private & ~banUser)
 async def fsub_commands(client: Client, message: Message):
-    button = [[InlineKeyboardButton("Cʟᴏsᴇ ✖️", callback_data="close")]]
+    button = [[InlineKeyboardButton("★ Cʟᴏsᴇ ★", callback_data="close")]]
     await message.reply(text=FSUB_CMD_TXT, reply_markup=InlineKeyboardMarkup(button), quote=True)
 
 
 @Bot.on_message(filters.command('users') & filters.private & ~banUser)
 async def user_setting_commands(client: Client, message: Message):
-    button = [[InlineKeyboardButton("Cʟᴏsᴇ ✖️", callback_data="close")]]
+    button = [[InlineKeyboardButton("★ Cʟᴏsᴇ ★", callback_data="close")]]
     await message.reply(text=USER_CMD_TXT, reply_markup=InlineKeyboardMarkup(button), quote=True)
 
     
@@ -171,12 +171,12 @@ HELP = "https://graph.org//file/10f310dd6a7cb56ad7c0b.jpg"
 async def help(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/cosmic_awaken"), 
-            InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/cosmic_awaken")
+            InlineKeyboardButton("Oᴡɴᴇʀ", url="t.me/Tharun_stryker"), 
+            InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/metaui")
         ]
     ]
     if SUPPORT_GROUP:
-        buttons.insert(0, [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ Gʀᴏᴜᴘ", url="https://t.me/ahss_help_zone")])
+        buttons.insert(0, [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ Gʀᴏᴜᴘ", url="https://t.me/offchats")])
 
     try:
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -193,5 +193,5 @@ async def help(client: Client, message: Message):
             message_effect_id = 5046509860389126442 #🎉
         )
     except Exception as e:
-        return await message.reply(f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @Shidoteshika1</i></b>\n<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>")
+        return await message.reply(f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @metaUi</i></b>\n<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>")
    
