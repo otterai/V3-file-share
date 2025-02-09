@@ -136,9 +136,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                                 id = query.from_user.id
                             )
             ),
-            reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton('• Aʙᴏᴜᴛ ᴍᴇ', callback_data='about'), InlineKeyboardButton('Sᴇᴛᴛɪɴɢs •', callback_data='setting')]
-            ]),
+            reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/Pythonbotz')],
+                    [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data='about'),
+                     InlineKeyboardButton('sᴇᴛᴛɪɴɢs •', callback_data='setting')],
+                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/AniHorizon/53')],
+                ]),
         )
         
     elif data == "files_cmd":
