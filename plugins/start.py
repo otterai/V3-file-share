@@ -107,7 +107,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/+OuiQPuWwlfIyNGM1')],
                     [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data='about'),
                      InlineKeyboardButton('sᴇᴛᴛɪɴɢs •', callback_data='setting')],
-                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https:/T.me/pythonbotz')],
+                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/pythonbotz')],
                 ])
         await message.reply_photo(
             photo = random.choice(PICS),
